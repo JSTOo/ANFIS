@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/genetic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MathUtils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jcommon-1.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jfreechart-1.0.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

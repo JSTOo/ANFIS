@@ -1,0 +1,15 @@
+apply plugin : 'java'
+
+compileJava{
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+dependencies{
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.springframework:spring-context:4.1.6.RELEASE'
+    compile 'org.jfree:jfreechart:1.0.19'
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
